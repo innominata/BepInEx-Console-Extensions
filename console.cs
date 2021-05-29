@@ -3,7 +3,7 @@ using BepInEx;
 
 namespace BCE
 {
-    [BepInPlugin("space.customizing.console", "Console Extensions", "1.0.0.0")]
+    [BepInPlugin("space.customizing.console", "Console Extensions", "1.1.0.0")]
     public class console : BaseUnityPlugin 
     {
         public static void WriteLine(string text, ConsoleColor consoleColor)

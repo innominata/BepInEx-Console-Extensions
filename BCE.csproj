@@ -32,8 +32,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BepInEx.refstub">
-      <HintPath>..\..\..\GSMod\DSP_Plugins\DSP_Plugins.GalacticScale\lib\BepInEx.refstub.dll</HintPath>
+    <Reference Include="BepInEx_publicized">
+      <HintPath>..\..\..\stub\publicized_assemblies\BepInEx_publicized.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Dyson Sphere Program\DSPGAME_Data\Managed\netstandard.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -49,6 +52,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CodeFile1.cs" />
     <Compile Include="console.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
