@@ -1,12 +1,4 @@
-Simple mod to allow easy use of custom colours in the console by other BepInEx mods
-
-Manual Installation:
-
- 1. Install BepInEx
- 2. Copy the BCE.dll to your BepInEx/plugins directory
-
-
-
+Simple library to allow easy use of custom colours in the console by other BepInEx mods
 
 Developer Usage:
 
