@@ -23,7 +23,7 @@ Available Colors are found here, or via your IDE Autocomplete
 https://docs.microsoft.com/en-us/dotnet/api/system.consolecolor?view=net-5.0
 
 
-Transpiler IL Output Extensions for CodeMatcher:
+Transpiler IL Output Extensions for CodeMatcher and IEnumerable<CodeInstruction>:
 ```cs
 using BCE;
   ...
@@ -59,3 +59,6 @@ public static IEnumerable<CodeInstruction> TickSkillLogic_Transpiler_Transpiler(
             }
         }
 ...
+
+![IL](https://github.com/innominata/BepInEx-Console-Extensions/blob/9243ebae3b1ba99f70d2627e0528a541164b476b/IL.png) "IL")
+![TranspileOutput](https://github.com/innominata/BepInEx-Console-Extensions/blob/9243ebae3b1ba99f70d2627e0528a541164b476b/Transpile.png "TranspileOutput")
