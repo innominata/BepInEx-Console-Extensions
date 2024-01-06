@@ -1,6 +1,6 @@
 {
     "name": "BepInEx_Console_Extensions",
-    "version_number": "1.0.0",
+    "version_number": "2.0.0",
     "website_url": "https://github.com/innominata/BepInEx-Console-Extensions",
     "description": "Helper mod to allow mod developers to change console text color",
     "dependencies": [

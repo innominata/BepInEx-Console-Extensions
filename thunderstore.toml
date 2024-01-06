@@ -1,0 +1,25 @@
+[config]
+schemaVersion = "0.0.1"
+
+[package]
+namespace = "innominata"
+name = "BepInEx_Console_Extensions"
+versionNumber = "2.0.0"
+description = "Utilities for BepInEx console. Change Color, Output IL From Transpilers etc"
+websiteUrl = "https://customizing.space"
+containsNsfwContent = false
+
+[package.dependencies]
+"xiaoye97-BepInEx" = "5.4.17"
+
+[build]
+icon = "./Package/icon.png"
+readme = "./Package/README.md"
+outdir = "./"
+[[build.copy]]
+source = "/obj/Debug/net472/BCE.dll"
+target = "./BCE.dll"
+[publish]
+repository = "https://dsp.thunderstore.io"
+communities = ["dyson-sphere-program"]
+categories = []
