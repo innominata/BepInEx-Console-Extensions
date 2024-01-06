@@ -60,5 +60,5 @@ public static IEnumerable<CodeInstruction> TickSkillLogic_Transpiler_Transpiler(
         }
 ...
 
-![IL](/IL.png)
-![TranspileOutput]/Transpile.png)
+![IL](/IL.png?raw=true)
+![TranspileOutput]/Transpile.png?raw=true)
