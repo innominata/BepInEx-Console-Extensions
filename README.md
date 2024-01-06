@@ -60,5 +60,5 @@ public static IEnumerable<CodeInstruction> TickSkillLogic_Transpiler_Transpiler(
         }
 ...
 
-![IL](https://github.com/innominata/BepInEx-Console-Extensions/blob/9243ebae3b1ba99f70d2627e0528a541164b476b/IL.png) "IL")
-![TranspileOutput](https://github.com/innominata/BepInEx-Console-Extensions/blob/9243ebae3b1ba99f70d2627e0528a541164b476b/Transpile.png "TranspileOutput")
+![IL](https://github.com/innominata/BepInEx-Console-Extensions/blob/9243ebae3b1ba99f70d2627e0528a541164b476b/IL.png)
+![TranspileOutput](https://github.com/innominata/BepInEx-Console-Extensions/blob/9243ebae3b1ba99f70d2627e0528a541164b476b/Transpile.png)
