@@ -29,10 +29,10 @@ using BCE;
   ...
 [HarmonyTranspiler]   
 [HarmonyPatch(typeof(LocalLaserOneShot),  nameof(LocalLaserOneShot.TickSkillLogic))]
-public static IEnumerable<CodeInstruction> Aim_Transpiler(IEnumerable<CodeInstruction> instructions)
+public static IEnumerable<CodeInstruction> TickSkillLogic_Transpiler_Transpiler(IEnumerable<CodeInstruction> instructions)
  {
  try {
-      instructions.Log(); // <- outputs the entire method in IL
+      instructions.Log("TickSkillLogic_Transpiler"); // <- outputs the entire method in IL
       var matcher = new CodeMatcher(instructions).MatchForward(true, new CodeMatch(i => (i.opcode == Ldc_R4)));
       if (!matcher.IsInvalid)
       {
