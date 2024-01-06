@@ -51,6 +51,7 @@ public static IEnumerable<CodeInstruction> TickSkillLogic_Transpiler_Transpiler(
             }
         }
 ```
+I have an error in that code, the last InsertAndAdvance should be Insert. So the highlit part of the IL is off by one, but I can't be bothered taking the picture again :)
 
 ![IL](https://github.com/innominata/BepInEx-Console-Extensions/blob/main/IL.png?raw=true)
 ![TranspileOutput](https://github.com/innominata/BepInEx-Console-Extensions/blob/main/Transpile.png?raw=true)
