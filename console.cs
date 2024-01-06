@@ -66,14 +66,14 @@ namespace BCE
                 _DumpMatcher(_matcher, lines, pre, post, lineNumber, 0, GetCallerMethod());
             }
         
-        public static void DumpInstructions(this IEnumerable<CodeInstruction> instructions,string method, int start = 0, int count = 0, [CallerLineNumber] int lineNumber = 0)
+        public static void Log(this IEnumerable<CodeInstruction> instructions,string method, int start = 0, int count = 0, [CallerLineNumber] int lineNumber = 0)
         {
             var list = instructions.ToList();
             var caller = $"IL for {method} - {GetCallerMethod()} on line {lineNumber}";
             var len = Mathf.Max(caller.Length + 2, 120);
             var pad = len - caller.Length;
             pad /= 2;
-            if (list.Count == 0) console.WriteLine($"Dumpinstructions: List is empty | {GetCallerMethod()} on line {lineNumber}", ConsoleColor.Red);
+            if (list.Count == 0) console.WriteLine($"Instructions Log: List is empty | {GetCallerMethod()} on line {lineNumber}", ConsoleColor.Red);
             if (count == 0) count = list.Count;
             if (start > list.Count) start = 0;
             
